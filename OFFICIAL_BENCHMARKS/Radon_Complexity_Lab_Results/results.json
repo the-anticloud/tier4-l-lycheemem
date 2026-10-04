@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_LYCHEEMEM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "B",
+      "score": 5.568181818181818
+    },
+    "complexity_grade": "B",
+    "complexity_score": 5.568181818181818,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\ontology\\default_ontology.py\n    C 4:0 User - A (1)\n    C 17:0 Assistant - A (1)\n    C 23:0 Preference - A (1)\n    C 35:0 Location - A (1)\n    C 47:0 Event - A (1)\n    C 56:0 Object - A (1)\n    C 68:0 Topic - A (1)\n    C 80:0 Organization - A (1)\n    C 89:0 Document - A (1)\n    C 103:0 LocatedAt - A (1)\n    C 111:0 OccurredAt - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\zep-eval-harness\\checkpoint.py\n    F 20:0 delete_checkpoint - A (2)\n    F 5:0 save_checkpoint - A (1)\n    F 14:0 load_checkpoint - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\zep-eval-harness\\retry.py\n    F 5:0 retry_with_backoff - A (4)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\zep-eval-harness\\zep_chunk_documents.py\n    F 255:0 run_chunking - C (17)\n    F 45:0 load_documents - B (8)\n    F 465:0 main - B (8)\n    F 111:0 extract_document_title - B (7)\n    F 224:0 read_completed_chunks - B (7)\n    F 192:0 get_next_chunk_set_number - A (5)\n    F 79:0 create_document_chunker - A (2)\n    F 136:0 summarize_document - A (1)\n    F 157:0 contextualize_chunk - A (1)\n    F 210:0 write_meta - A (1)\n    F 218:0 append_chunk_line - A (1)\n    F 427:0 parse_args - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\zep-eval-harness\\zep_evaluate.py\n    F 673:0 calculate_aggregate_statistics - F (41)\n   ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\ontology\\default_ontology.py - A (80.86)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\zep-eval-harness\\checkpoint.py - A (67.61)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\zep-eval-harness\\retry.py - A (84.60)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\zep-eval-harness\\zep_chunk_documents.py - A (43.86)\nE:\\fenta\\Downl"
+  }
+}

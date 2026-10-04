@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_LYCHEEMEM",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "getzep/zep",
+  "commit": "495bf72880d1",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 53.86,
+      "min": 48.49,
+      "max": 57.04,
+      "all": [
+        56.51,
+        57.04,
+        50.23,
+        57.03,
+        48.49
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_LYCHEEMEM (getzep/zep) \u2014 947 files, 104173 source lines, licence Apache-2.0, primary language ['Python']",
+      "token_count": 41,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "l",
+        "##ych",
+        "##eem",
+        "##em",
+        "(",
+        "get",
+        "##ze",
+        "##p",
+        "/",
+        "ze",
+        "##p",
+        ")",
+        "\u2014",
+        "94",
+        "##7",
+        "files",
+        ","
+      ],
+      "tokenization_latency_ms": 2.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5881,
+      "classification_latency_ms": 81.49,
+      "status": "PASS"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "project": "L_LYCHEEMEM",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "timestamp": "2026-10-01",
+  "benchmark_type": "local_static",
+  "bandit_high": 0,
+  "bandit_medium": 2,
+  "bandit_status": "pass",
+  "radon_cc_grade": "3.2986301369863016",
+  "radon_cc_score": null,
+  "radon_mi_avg": null,
+  "python_files": 319,
+  "total_files": 1283,
+  "python_loc": 48652,
+  "elapsed_s": 43.47
+}

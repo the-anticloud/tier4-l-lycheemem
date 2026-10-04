@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "L_LYCHEEMEM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n      20      1     90      0      22 test_evaluation_result@6-27@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\benchmarks\\locomo\\tests\\test_common.py\n       4      1     29      0       6 test_grade@30-35@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\benchmarks\\locomo\\tests\\test_common.py\n      14      1     80      0      16 test_latency_stats@38-53@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\benchmarks\\locomo\\tests\\test_common.py\n      11      1     62      0      13 test_token_stats@56-68@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM\\benchmarks\\locomo\\tests\\test_common.py\n       5      1     32      0       6 test_default_config@9-14@E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\UPSTREAM"
+  }
+}

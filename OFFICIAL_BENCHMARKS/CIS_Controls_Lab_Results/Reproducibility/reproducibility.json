@@ -1,0 +1,42 @@
+{
+  "benchmark": "CIS_Controls_Lab_Results",
+  "project": "L_LYCHEEMEM",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "L_LYCHEEMEM",
+    "slug": "getzep/zep",
+    "commit": "495bf72880d1",
+    "tracked_files": 947,
+    "source_lines": 104173,
+    "licence": "Apache-2.0",
+    "size_mb": 405.38
+  },
+  "inputs_hash": "a4dfa0949eb322dc1a0e85c15c940e4fedd7a0c1e8cb33ab9edc0c4f6fa32fc1",
+  "outputs": {
+    "results_file": "TIER_4_INFERENCE_AGENTS\\L_LYCHEEMEM\\OFFICIAL_BENCHMARKS\\CIS_Controls_Lab_Results\\results.json",
+    "results_sha256": "30b18fe8e6428711f1bdb76b4f09e8bd5c4ebd61cb781c78e0209ff12cc617b6"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/CIS_Controls_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

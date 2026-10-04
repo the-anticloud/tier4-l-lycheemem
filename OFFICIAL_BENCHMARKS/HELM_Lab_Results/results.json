@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "L_LYCHEEMEM",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "getzep/zep",
+  "commit": "495bf72880d1",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project L_LYCHEEMEM provides 947 tracked files across ['Python', 'Go'] with 104173 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.5363,
+        "latency_ms": 36.96
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.5363,
+        "latency_ms": 32.49
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.5363,
+        "latency_ms": 38.16
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 35.87,
+    "status": "PASS",
+    "language_diversity": 6,
+    "primary_language": "Python",
+    "fairness_keywords_found": false
+  }
+}
